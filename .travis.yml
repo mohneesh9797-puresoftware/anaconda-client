@@ -26,15 +26,6 @@ matrix:
       arch: amd64
       language: generic
       env: PYTHON_VERSION=3.7
-    - os: linux
-      arch: arm64
-      language: generic
-      env: PYTHON_VERSION=3.6
-    - os: linux
-      arch: amd64
-      language: generic
-      env: PYTHON_VERSION=3.6
-
 cache:
   directories:
     - $HOME/condacache/pkgs
